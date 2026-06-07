@@ -1,7 +1,7 @@
 # Calorie tracker application
 
 ## Project Overview
- A modern, responsive, and lightweight client-side Calorie Counter dashboard constructed using semantic HTML5 structures, Tailwind CSS utility layout frameworks, and vanilla ES6+ JavaScript.
+ A modern, responsive, and lightweight client-side Calorie Counter dashboard constructed using semantic HTML5 structures, Tailwind CSS  and JavaScript.
 
 It helps users:
   Help It Gives the UserCalculates Personalized Goals: Estimates Daily Energy Expenditure (TDEE) based on age, weight, and activity level.Simplifies Food Logging: Uses barcode scanners and verified databases to make entering meals fast and accurate.Balances Macronutrients: Displays visual charts splitting daily intake into proteins, carbohydrates, and fats.Provides Accountability: Sends reminders to log meals, helping users stick to their lifestyle changes.Tracks Hydration: Includes water logging features to ensure proper hydration alongside nutrition.Reveals Eating Patterns: Shows historical trends, helping users identify which foods cause energy crashes or overeating.
