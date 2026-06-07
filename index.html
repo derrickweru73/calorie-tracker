@@ -25,6 +25,32 @@
             </h2>
         </div>
 
+        <!-- SECTION 2: Form Element for Meal Captures -->
+        <form id="calorie-form" class="space-y-4 bg-slate-50 p-4 rounded-xl border border-slate-100">
+            <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Log New Meal Entry</h3>
+            
+            <div>
+                <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1" for="item-name">Food Item Name</label>
+                <div class="flex gap-2">
+                    <input type="text" id="item-name" placeholder="e.g., Banana, Coffee" class="w-full bg-white border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-indigo-500" required>
+                    <!-- Fetch API Action Button Trigger -->
+                    <button type="button" id="btn-suggest" class="bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold px-3 rounded-lg transition-colors whitespace-nowrap cursor-pointer">
+                         Fetch Cal
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <label class="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-1" for="item-calories">Calorie Value (kcal)</label>
+                <input type="number" id="item-calories" placeholder="e.g., 105" min="1" class="w-full bg-white border border-slate-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-indigo-500" required>
+            </div>
+
+            <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 rounded-lg shadow-sm transition-colors text-sm cursor-pointer">
+                 Add Food Item
+            </button>
+        </form>
+
+        
          
     <script src="script.js"></script>
 </body>
