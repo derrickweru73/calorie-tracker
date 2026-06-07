@@ -35,7 +35,7 @@ It helps users:
 ---
 
 ## Visual Identity
-*Brand Name:* PesaCash chapchap  
+*Brand Name:* calorie tracker 
 *Primary Color:* white (#22C55E) – trust and growth  
 *Secondary Color:* Blue (#2563EB) – reliability  
 *Accent Color:* White (#FFFFFF) – clean design  
