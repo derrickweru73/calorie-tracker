@@ -76,10 +76,12 @@ const AppState = {
 
     // Adds up all the calories in our list to get the grand total
     getTotalCalories() {
+
+        console.log(this.items);
+
         return this.items.reduce((sum, item) => sum + item.calories, 0);
     }
 };
-
 // --- DOM ELEMENT REGISTRY ---
 // Grabs and stores all the HTML elements we need to interact with.
 const DOM = {
@@ -173,12 +175,16 @@ document.addEventListener('DOMContentLoaded', () => {
 DOM.form.addEventListener('submit', (e) => {
     e.preventDefault(); // Prevents the webpage from reloading on form submit
 
+    console.log("Form submitted")
+
     const name = DOM.itemName.value.trim();
     const calories = DOM.itemCalories.value;
 
     if (!name || !calories) return; // Stop if either field is left empty
 
     const newItem = AppState.addItem(name, calories);
+
+    console.log(newItem);
     
     UI.renderItem(newItem);
     UI.updateTotalCalories();
